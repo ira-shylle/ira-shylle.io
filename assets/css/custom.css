@@ -53,9 +53,27 @@
 @media screen and (max-width: 479px) {
 	.vlt-custom--4124 {
 		right:-100vw;
-		width: 50vw;
+		width: 20vw;
 	}
 	}
+
+	@media screen and (max-width: 414px) {
+		.vlt-custom--4124 {
+			right:-5vw;
+			width: 50vw;
+		}
+		}
+
+	@media only screen 
+    and (device-width : 375px) 
+    and (device-height : 667px) 
+ {
+		.vlt-custom--4124 {
+			right:0;
+			width: 80vw;
+
+		}
+	} 
 
 .vlt-custom--1259 {
 	top: -20px;

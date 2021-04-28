@@ -41,7 +41,7 @@ try {
 
 	$mail->Subject = $mail_subject;
 	$mail->Body = '
-		<strong>Name:</strong> ' . $mail_from_name . '<br>
+		<strong>Name:</strong> ' . $mail_from_name . ' <br>
 		<strong>Email:</strong> ' . $mail_from_email . '<br>
 		<strong>Category:</strong> ' . $mail_category . '<br>
 		<strong>Budget:</strong> ' . $mail_budget . '<br>
@@ -56,3 +56,5 @@ try {
 	echo "Message could not be sent. Mailer Error: {$mail->ErrorInfo}";
 
 }
+
+?>
