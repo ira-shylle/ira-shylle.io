@@ -190,3 +190,27 @@
 	color: white;
 	animation: status 4s ease forwards;
   }
+
+.added-row{
+	display: none;
+}
+
+.added-row.active{
+	display: flex;
+}
+
+.last-row{
+	display: none;
+}
+
+.added-pb{
+	display: none;
+}
+
+.added-pb.active{
+	display: block;
+}
+
+.works-item{
+	margin-bottom: 3.125rem;
+}
