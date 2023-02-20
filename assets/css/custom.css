@@ -214,3 +214,30 @@
 .works-item{
 	margin-bottom: 3.125rem;
 }
+
+@media only screen and (max-width: 414px) {
+	.vlt-services__link{
+		opacity: 1;
+		transform: translate3d(0, 0, 0);
+	}
+
+	.vlt-work-footer .vlt-work__link{
+		opacity: 1;
+		transform: translate3d(0, 0, 0);
+	}
+
+	.vlt-work-footer{
+		padding-top: 0;
+	}
+
+	.vlt-post-footer .vlt-post__link{
+		opacity: 1;
+		transform: translate3d(0, 0, 0);
+	}
+
+
+
+	.mobile-hide{
+		display: none;
+	}
+}
